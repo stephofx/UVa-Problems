@@ -6,10 +6,9 @@ import java.util.Arrays;
 import java.util.StringTokenizer;
 import java.math.*;
 
-public class costcutting {
+class Main {
 
 	public static void main(String[] args) throws IOException {
-		System.setIn(new FileInputStream("cost.txt"));
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		int a, b, c, n;
