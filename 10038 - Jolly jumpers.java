@@ -1,10 +1,10 @@
 import java.util.*;
 import java.io.*;
 import java.math.*;
-public class jolly {
+class Main {
 
 	public static void main(String[] args) throws IOException {
-		Scanner sc = new Scanner(new FileReader("jolly.txt"));
+		Scanner sc = new Scanner(System.in);
 		while(sc.hasNextInt()) {
 			int n = sc.nextInt();
 			int[] arr = new int[n];
